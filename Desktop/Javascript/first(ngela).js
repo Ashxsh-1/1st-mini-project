@@ -1,0 +1,12 @@
+//  // prompt("what is your name");
+// var myname ="Ashish Singh";
+// alert(myname);
+// var yourname = prompt("what's your name");
+// alert("my name is " + myname+ "welcome to my course "+yourname+ "!");
+var name = prompt("What is your name?");
+var firstLet = name.slice(0,1);
+firstLet = firstLet.toUpperCase();
+var rest_name = name.slice(1);
+rest_name = rest_name.toLowerCase();
+var newname = firstLet + rest_name;
+alert("Hello" + newname);
